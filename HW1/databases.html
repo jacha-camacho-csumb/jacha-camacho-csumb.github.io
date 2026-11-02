@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Databases | CST336</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <p class="pill">HW 1: HTML and CSS</p>
+            <h1 class="site-title">Databases</h1>
+            <p class="tagline">Organized collections of information that applications can store, search, and update.</p>
+        </div>
+    </header>
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Operating Systems</a></li>
+            <li><a href="programming-languages.html">Programming Languages</a></li>
+            <li><a href="databases.html" aria-current="page">Databases</a></li>
+            <li><a href="mobile-app-development.html">Mobile App Development</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="intro">
+            <h2>What is a database?</h2>
+            <p>A database is an organized collection of data. A database management system (DBMS) is software used to
+                create, maintain, protect, and access that data. Businesses, schools, hospitals, and websites use
+                databases to keep information available and organized.</p>
+            <p>For example, a college database might store student records, course information, and class registrations.
+                Instead of keeping separate lists that are difficult to maintain, related information can be stored in
+                connected tables.</p>
+        </section>
+
+
+        <figure class="graphics">
+            <div>
+                <img src="img/db.png" alt="Database">
+                <figcaption>Two related tables connected through a student ID.</figcaption>
+            </div>
+        </figure>
+
+        <h2>Relational and NoSQL databases</h2>
+        <div class="two-column">
+            <article class="content-card">
+                <h3>Relational databases</h3>
+                <p>Relational databases organize information into tables made of rows and columns. Tables can connect
+                    through keys, which helps reduce repeated data and maintain relationships. SQL is commonly used to
+                    query and manage relational data.</p>
+                <p>Examples include PostgreSQL, MySQL, and Microsoft SQL Server.</p>
+            </article>
+            <article class="content-card">
+                <h3>NoSQL databases</h3>
+                <p>NoSQL databases use models such as documents, key-value pairs, graphs, or wide columns. These designs
+                    can be useful when data does not fit neatly into a fixed set of tables or when an application needs
+                    a particular scaling approach.</p>
+                <p>MongoDB and Redis are examples of NoSQL database systems.</p>
+            </article>
+        </div>
+
+        <h2>Basic database terms</h2>
+        <ul>
+            <li><strong>Table:</strong> A structure that stores related records.</li>
+            <li><strong>Row:</strong> One record in a table.</li>
+            <li><strong>Column:</strong> A field that describes one type of information.</li>
+            <li><strong>Primary key:</strong> A value that uniquely identifies a row.</li>
+            <li><strong>Query:</strong> A request to retrieve or change data.</li>
+        </ul>
+
+        <p class="note">Good database design helps keep information accurate, reduces unnecessary duplication, and makes
+            it easier for applications to find the data they need.</p>
+
+        <section>
+            <h2>Sources</h2>
+            <ul class="source-list">
+                <li><a href="https://www.postgresql.org/docs/current/tutorial.html" target="_blank"
+                        rel="noopener">PostgreSQL: Tutorial</a></li>
+                <li><a href="https://www.mongodb.com/docs/manual/introduction/" target="_blank" rel="noopener">MongoDB:
+                        Introduction to MongoDB</a></li>
+                <li><a href="https://www.ibm.com/think/topics/database" target="_blank" rel="noopener">IBM: What is a
+                        database?</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Jose Acha-Camacho. All rights reserved.</p>
+        <p>This site is for academic purposes only.</p>
+        <p>CST 336 Internet Programming - CSUMB CS ONLINE Program</p>
+        <img src="img/csumb-logo.png" alt="CSUMB Logo">
+
+    </footer>
+</body>
+
+</html>
