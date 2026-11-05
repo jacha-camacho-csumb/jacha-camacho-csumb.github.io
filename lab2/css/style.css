@@ -1,0 +1,92 @@
+body {
+    background-color: #5584b4;
+    font-family: Arial, sans-serif;
+}
+
+.quiz-header {
+    background: linear-gradient(135deg, #de0c0c, #0955c8);
+    color: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.question-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.question-card h4 {
+    margin-bottom: 18px;
+    color: #17365d;
+}
+
+.form-check {
+    margin-bottom: 10px;
+}
+
+.form-control,
+.form-select {
+    max-width: 500px;
+}
+
+.feedback {
+    margin-top: 12px;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.feedback:empty {
+    display: none;
+}
+
+.feedback.correct {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.feedback.incorrect {
+    background-color: #fff3cd;
+    color: #664d03;
+}
+
+.mark-image {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-right: 8px;
+}
+
+.results-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+#totalScore {
+    font-weight: bold;
+}
+
+#congratulations {
+    color: #198754;
+}
+
+#validationFdbk:empty {
+    display: none;
+}
+
+button {
+    min-width: 180px;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #c1c7c8;
+}
