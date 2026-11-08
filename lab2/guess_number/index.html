@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB #2: Guess the Number</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Guess the Number!</h1>
+        <h2>Guess a number between 1 and 99<br>in seven attempts!</h2>
+    </header>
+
+    <div id="main">
+        Enter a guess:
+        <input type="text" id="playerGuess" size="5">
+        <button id="guessBtn" type="button">Guess</button>
+        <br>
+        <button id="resetBtn" type="button">Play Again!</button>
+
+        <div id="feedback"></div>
+
+        <div class="previous-guesses">
+            Previous Guesses: <span id="guesses"></span>
+        </div>
+
+        <div class="score">
+            Wins: <span id="wins">0</span>
+            &nbsp; | &nbsp;
+            Losses: <span id="losses">0</span>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <footer>
+        <p>&copy; Jose Acha-Camacho. All rights reserved.</p>
+        <p>This site is for academic purposes only.</p>
+        <p>CST 336 Internet Programming - CSUMB CS ONLINE Program</p>
+        <img src="img/csumb-logo.png" alt="CSUMB Logo">
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+/* Page styling */
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #203047;
+    background: url("../img/background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Header */
+header {
+    margin: 25px auto;
+    padding: 20px;
+    max-width: 600px;
+    color: white;
+    background-color: #244b68;
+    border-radius: 10px;
+}
+
+/* Game area */
+#main {
+    max-width: 550px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Input & buttons */
+input {
+    width: 65px;
+    padding: 8px;
+}
+
+button {
+    margin: 8px;
+    padding: 10px 18px;
+    color: white;
+    background-color: #287a8b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d5d69;
+}
+
+#resetBtn {
+    background-color: #c17a24;
+}
+
+/* Feedback/scores */
+#feedback {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.previous-guesses {
+    margin-top: 15px;
+}
+
+.score {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #372174;
+}
