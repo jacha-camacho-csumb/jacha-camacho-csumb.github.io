@@ -1,0 +1,9 @@
+API to get the city, latitude and longitude based on a zip code: https://csumb.space/api/cityInfoAPI.php?zip=93955
+
+API to get all counties based on the two-letter abbreviation of a state: https://csumb.space/api/countyListAPI.php?state=ca
+
+API to check whether a username is available or not (usernames already taken are: eeny, meeny, miny, maria, and john) https://csumb.space/api/usernamesAPI.php?username=eeny
+
+API to get all US states along with their two-letter abbreviation https://csumb.space/api/allStatesAPI.php
+
+API to generate a suggested password of a specific length https://csumb.space/api/suggestedPassword.php?length=8

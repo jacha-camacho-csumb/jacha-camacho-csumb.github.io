@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB #3: Sign Up Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Sign Up Form | CST 336</h1>
+
+        <form id="signupForm">
+
+            <fieldset>
+                <legend>Sign Up</legend>
+
+                <label for="fName">First Name:</label>
+                <input type="text" id="fName" required>
+
+                <label for="lName">Last Name:</label>
+                <input type="text" id="lName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="zip">Zip Code:</label>
+                <input type="text" id="zip" maxlength="5">
+
+                <span id="cityError" class="error"></span>
+
+                <p>City: <strong id="city"></strong></p>
+                <p>Latitude: <strong id="lat"></strong></p>
+                <p>Longitude: <strong id="long"></strong></p>
+
+                <label for="state">State:</label>
+                <select id="state">
+                    <option value="">Loading states...</option>
+                </select>
+
+                <label for="county">Select a County:</label>
+                <select id="county">
+                    <option value="">Select a state first</option>
+                </select>
+
+                <label for="username">Desired Username:</label>
+                <input type="text" id="username">
+                <span id="usernameError"></span>
+
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd">
+                <span id="sPwd" class="suggestion"></span>
+
+                <label for="pwdAgain">Type Password Again:</label>
+                <input type="password" id="pwdAgain">
+
+                <button type="submit">Sign Up!</button>
+
+                <div id="formErrors" class="error"></div>
+
+            </fieldset>
+        </form>
+
+
+        <footer>
+            <br>
+            <p>&copy; Jose Acha-Camacho. All rights reserved.</p>
+            <p>This site is for academic purposes only.</p>
+            <p>CST 336 Internet Programming - CSUMB CS ONLINE Program</p>
+            <img src="img/csumb-logo.png" alt="CSUMB Logo">
+
+        </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
