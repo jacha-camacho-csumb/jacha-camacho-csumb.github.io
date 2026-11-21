@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Quotes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+            <h1>Famous Quotes</h1>
+            <p>Words of wisdom from famous people.</p>
+        </header>
+
+        <!-- Random quote and author -->
+        <section class="quote-section">
+            <h2>Random Quote</h2>
+
+            <p id="quoteText">Loading quote...</p>
+            <p id="quoteAuthor"></p>
+
+            <button id="authorButton">Display Author Info</button>
+        </section>
+
+        <!-- Author biography and picture -->
+        <section id="authorInfo" class="author-info hidden">
+
+            <div>
+                <img id="authorImage" src="" alt="Author picture">
+            </div>
+
+            <div>
+                <h2 id="authorName"></h2>
+                <p id="authorBio"></p>
+            </div>
+
+        </section>
+
+        <!-- Translation options -->
+        <section class="translation-section">
+
+            <h2>Translate Quote</h2>
+
+            <div id="languageOptions" class="language-options">
+                <!-- Radio buttons are generated with JavaScript -->
+            </div>
+
+            <button id="translateButton">Translate</button>
+
+            <div id="translationResult">
+                <img id="languageFlag" src="" alt="" class="hidden">
+                <p id="translatedQuote"></p>
+            </div>
+
+        </section>
+
+        <!-- Get multiple quotes -->
+        <section class="multiple-quotes-section">
+
+            <h2>Get Multiple Quotes</h2>
+
+            <label for="numberOfQuotes">Number of Quotes (1-5):</label>
+
+            <input type="number" id="numberOfQuotes" min="1" max="5" placeholder="Enter a number">
+
+            <button id="getQuotesButton">Get Quotes</button>
+
+            <!-- Validation messages appear here -->
+            <p id="errorMessage" class="error-message"></p>
+
+            <!-- Multiple quotes appear here -->
+            <div id="quotesList"></div>
+
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
